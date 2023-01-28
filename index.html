@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Music Player</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="images/logo.jpg" alt="Music"><span class="logoName">Music Player</span></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="search"><input type="text" placeholder="search"></li>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+        <div class="songsList" id="songsList">
+
+            <p class="containertitle">List Of Songs</p><i class="fa-solid fa-2x fa-square-xmark"
+                id="menu-btn"></i>
+            <div class="songListItems" id="songListItems">
+                <div class="song-item" id="0">
+                    <img src="images/logo.jpg" alt="item1" class="song-item1"><span class="title">Ee Manasse song</span>
+                </div>
+                <div class="song-item" id="1">
+                    <img src="images/logo.jpg" alt="item1" class="song-item1"><span class="title">Aasha Pasham
+                        Song</span>
+                </div>
+                <div class="song-item" id="2">
+                    <img src="images/logo.jpg" alt="item1" class="song-item1"><span class="title">Maguva Maguva
+                        Song</span>
+                </div>
+                <div class="song-item" id="3">
+                    <img src="images/logo.jpg" alt="item1" class="song-item1"><span class="title">ManasuDhari Tha..
+                        Song</span>
+                </div>
+                <div class="song-item" id="4">
+                    <img src="images/logo.jpg" alt="item1" class="song-item1"><span class="title">Materani chi..
+                        Song</span>
+                </div>
+                <div class="song-item" id="5">
+                    <img src="images/logo.jpg" alt="item1" class="song-item1"><span class="title">Materani
+                        Chi..(Tamil)</span>
+                </div>
+                <div class="song-item" id="6">
+                    <img src="images/logo.jpg" alt="item1" class="song-item1"><span class="title">Oke oka Lokam
+                        Song</span>
+                </div>
+                <div class="song-item" id="7">
+                    <img src="images/logo.jpg" alt="item1" class="song-item1"><span class="title">Oke oka L..(Tamil)
+                        Song</span>
+                </div>
+                <div class="song-item" id="8">
+                    <img src="images/logo.jpg" alt="item1" class="song-item1"><span class="title">Pavizha Mazha
+                        Song</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="Player" id="Player">
+            <i class="fa-solid fa-2x fa-bars" id="menu-bar"></i>
+            <div class="MainTab" id="MainTab"><img
+                    src="https://res.cloudinary.com/dlj5s1kn2/image/upload/v1674892749/bg_p7vjeb.jpg" alt=""
+                    id="picture"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p id="songName">Your song Name displays Here</p>
+        <input type="range" id="progress" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward" id="back-btn"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="main-play-btn"></i>
+            <i class="fa-solid fa-2x fa-forward" id="next-btn"></i>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a4efb3269c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="Responsive.js"></script>
+</body>
+
+</html>
